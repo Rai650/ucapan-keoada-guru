@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.container h2{
+    color: black;
+    border-right: 2px solid black;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    animation:mengetik 5s steps(300, end);
+}
+@keyframes mengetik{
+    from{ width: 0;}
+    to{ width: 100%;}
+}
